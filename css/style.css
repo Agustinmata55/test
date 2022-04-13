@@ -283,6 +283,39 @@ main{
 
 @media only screen and (min-width:1200px){
     body{
-        background-color: rgb(58, 150, 22);
+        background-color:;
     }
 }
+
+.imagen1{
+    width: 60%;
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+
+.imagen2{
+    width: 60%;
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+
